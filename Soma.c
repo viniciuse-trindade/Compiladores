@@ -18,13 +18,13 @@ int main(){
 	int soma=0;
 	int tipo=0;
 	
-	while(1){
+	while(2){
 		scanf("%c",&c);
 		if(isdigit(c)){
 			*p=c;
 			p++;
 			n++;
-			tipo=DIGIT;			
+			tipo=INT;			
 		}else if(c=='+'){
 			*p='\0';
 			soma+=atoi(pFim+m);
